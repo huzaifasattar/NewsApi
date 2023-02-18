@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+      animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -30,9 +30,27 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
+}
+
+.img-style {
+  width: 100% !important;
+  height: 300px !important;
+  /* margin: auto !important; */
+}
+
+.news-pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.sticky{
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
