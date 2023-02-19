@@ -21,8 +21,8 @@ const Home = () => {
 
   const [data, setData] = useState({
     q: "apple",
-    from: "2023-02-09",
-    to: "2023-02-10",
+    from: "2023-02-18",
+    to: "2023-02-20",
     sortBy: "popularity",
     page: activeTab,
     pageSize: 5,
