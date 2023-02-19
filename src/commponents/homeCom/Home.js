@@ -102,7 +102,7 @@ const Home = () => {
             >
               <option value="">Popularity</option>
               <option value="">relevancy</option>
-              <option value="">publishedAt</option>
+              <option value="">published</option>
             </Form.Select>
           </Form.Group>
 
