@@ -20,8 +20,8 @@ const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   const [data, setData] = useState({
-    q: "apple",
-    from: "2023-02-18",
+    q: "turkey",
+    from: "2023-02-12",
     to: "2023-02-20",
     sortBy: "popularity",
     page: activeTab,
