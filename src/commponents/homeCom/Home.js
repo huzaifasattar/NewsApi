@@ -123,7 +123,6 @@ const Home = () => {
           <Button
             className="mt-2"
             onClick={resultFind}
-            
             disabled={data.q ? false : true}
           >
             Search
