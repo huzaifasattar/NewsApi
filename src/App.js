@@ -3,6 +3,7 @@ import "./App.css";
 // import Cardparctice from "./commponents/apiData/prectice/Cardparctice";
 import Home from "./commponents/homeCom/Home";
 import Header from "./commponents/navb/Header";
+// import SideBarCom from "./commponents/sideBar/SideBarCom";
 // import NewsCard from "./commponents/newsCard/NewsCard";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <>
       <Header />
       <Home />
-    
+    {/* <SideBarCom/> */}
     {/* <Cardparctice/> */}
       {/* <NewsCard /> */}
     </>
